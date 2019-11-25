@@ -1,0 +1,115 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#logo, #logo1{
+	padding-top: 7px;
+	height: 60px;
+}
+
+#logotipo{
+	height: 100px;
+	width: 500px;
+}
+#inversion{
+	width: 100%;
+}
+#logoSideNav{
+	width: 60px;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+	background-color: grey;
+}
+.btn-large{
+	background-color: #ffa726;
+}
+#download-button{
+	border-radius: 25px;
+}
+.tabs .tab a{
+	color:black;
+}
+nav{
+	background-color: #0396a6;/*nav*/
+	height: 70px;
+}
+nav ul a {
+	color: #F7830C;
+	font-weight: bold;
+}
+.row .col{
+	padding: 0px;
+}
+.material-icons{
+	color:#F7830C;
+}
+.tabs .tab a:hover{
+	color:#F7830C
+}
+h2{
+	font-size: 6rem;
+}
+h6{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.icon-block{
+	box-sizing: border-box;
+
+}
+.page-footer{
+	background-color:#0396a6;
+	color: black;
+}
+.iniciar{
+	font-size: 15px;
+}
+@media only screen and (min-width: 993px){
+	.row .col.l3{
+			padding-left: 20px;
+	}
+	#logo1{
+			margin-left: -30px;
+	}
+}
+.header.center{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.collapsible-body{
+	height: auto;
+}
+#bronce{
+	color: #cd7f32;
+}
+#plata{
+	color: #C0C0C0;
+}
+#oro{
+	color:#FFD700;
+}
+.collapsible-body{
+	padding: 0px 28px;
+}
+#niveles{
+	padding-top: 15px;
+}
+#servicio{
+	padding-right: 50px;
+	padding-left: 50px;
+
+}
+#subtitulo{
+	color: #0396a6;
+}
