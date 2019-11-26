@@ -1,4 +1,6 @@
 /* Custom Stylesheet */
+
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -7,109 +9,179 @@
  */
 
 .icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
-#logo, #logo1{
-	padding-top: 7px;
-	height: 60px;
+    padding: 0 15px;
 }
 
-#logotipo{
-	height: 100px;
-	width: 500px;
+.icon-block .material-icons {
+    font-size: inherit;
 }
-#inversion{
-	width: 100%;
+
+#logo,
+#logo1 {
+    padding-top: 7px;
+    height: 60px;
 }
-#logoSideNav{
-	width: 60px;
+
+#logotipo {
+    height: 100px;
+    width: 500px;
+}
+
+#inversion {
+    width: 100%;
+}
+
+#logoSideNav {
+    width: 60px;
 }
 
 .waves-effect.waves-brown .waves-ripple {
-	background-color: grey;
+    background-color: grey;
 }
-.btn-large{
-	background-color: #ffa726;
+
+.btn-large {
+    background-color: #ffa726;
 }
-#download-button{
-	border-radius: 25px;
+
+#download-button {
+    border-radius: 25px;
 }
-.tabs .tab a{
-	color:black;
+
+.tabs .tab a {
+    color: black;
 }
-nav{
-	background-color: #0396a6;/*nav*/
-	height: 70px;
+
+nav {
+    background-color: #ffe0b2;
+    /*nav*/
+    height: 64px;
 }
+
 nav ul a {
-	color: #F7830C;
-	font-weight: bold;
+    color: #F7830C;
+    font-weight: bold;
 }
-.row .col{
-	padding: 0px;
-}
-.material-icons{
-	color:#F7830C;
-}
-.tabs .tab a:hover{
-	color:#F7830C
-}
-h2{
-	font-size: 6rem;
-}
-h6{
-	padding-top: 15px;
-	padding-bottom: 10px;
-}
-.icon-block{
-	box-sizing: border-box;
 
+.row .col {
+    padding: 0px;
 }
-.page-footer{
-	background-color:#0396a6;
-	color: black;
-}
-.iniciar{
-	font-size: 15px;
-}
-@media only screen and (min-width: 993px){
-	.row .col.l3{
-			padding-left: 20px;
-	}
-	#logo1{
-			margin-left: -30px;
-	}
-}
-.header.center{
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-.collapsible-body{
-	height: auto;
-}
-#bronce{
-	color: #cd7f32;
-}
-#plata{
-	color: #C0C0C0;
-}
-#oro{
-	color:#FFD700;
-}
-.collapsible-body{
-	padding: 0px 28px;
-}
-#niveles{
-	padding-top: 15px;
-}
-#servicio{
-	padding-right: 50px;
-	padding-left: 50px;
 
+.material-icons {
+    color: #F7830C;
 }
-#subtitulo{
-	color: #0396a6;
+
+.tabs .tab a:hover {
+    color: #F7830C
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+h6 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.icon-block {
+    box-sizing: border-box;
+}
+
+.page-footer {
+    background-color: #ffe0b2;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 22px;
+}
+
+.iniciar {
+    font-size: 15px;
+    /*	color: black;
+	background-color: #b3e5fc;*/
+}
+
+@media only screen and (min-width: 993px) {
+    .row .col.l3 {
+        padding-left: 20px;
+    }
+    #logo1 {
+        margin-left: -30px;
+    }
+}
+
+.tittle {
+    width: 100%;
+    display: inline-block;
+}
+
+.register-container {
+    margin: 0;
+    width: 100%;
+}
+
+.margin-cero {
+    margin: 0;
+}
+
+.input-containers {
+    border: 1px solid black;
+    margin: 2% 10%;
+    box-sizing: border-box;
+    padding: 2% 10%;
+    padding-bottom: 0;
+    vertical-align: middle;
+}
+
+.register-sub-container {
+    padding-bottom: 15px;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer.page-footer {
+    margin-top: 5%;
+    padding-top: 0;
+}
+
+#send-button {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+div.row {
+    margin-bottom: 0;
+}
+
+.contact-icons {
+    min-width: 14px;
+    min-height: 14px;
+    height: 14px;
+    width: 14px;
+    max-width: 14px;
+    max-height: 14px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70px;
+    align-items: baseline;
+    height: 22px;
+}
+
+#contact {
+    padding-right: 5px;
 }
